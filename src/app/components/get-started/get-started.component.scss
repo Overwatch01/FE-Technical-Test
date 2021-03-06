@@ -1,0 +1,155 @@
+@import "../../../assets/css/variables";
+
+.card {
+    top: 20%;
+    left: 56%;
+    width: 34%;
+    height: 50%;
+    background: $color-fbfbfb 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 20px #00000029;
+    border-radius: 30px;
+    position: absolute;
+    opacity: 1;
+
+    .title {
+        top: 15%;
+        left: 33%;
+        width: 28%;
+        height: 41px;
+        letter-spacing: 0px;
+        color: #000000;
+        text-align: center;
+        font: normal normal bold 22px/41px Roboto;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .info {
+        top: 28%;
+        left: 22%;
+        width: 57%;
+        height: 24px;
+        letter-spacing: 0px;
+        color: #000000;
+        text-align: center;
+        font: normal normal normal 13px/24px Roboto;
+        position: absolute;
+    }
+
+    .ads-title {
+        top: 47%;
+        left: 12%;
+        height: 22px;
+        letter-spacing: 0px;
+        color: #000000;
+        text-align: center;
+        font: normal normal 400 17px/22px Roboto;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .yes {
+        top: 52%;
+        left: 13%;
+        width: 4%;
+        height: 3%;
+        background: #38CCF5 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .yes-label {
+        top: 52%;
+        left: 13%;
+        width: 16%;
+        height: 19px;
+        letter-spacing: 0px;
+        color: #000000;
+        text-align: center;
+        font: normal normal 400 16px/19px Roboto;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .no {
+        top: 52%;
+        left: 59%;
+        width: 4%;
+        height: 3%;
+        background: #38CCF5 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .no-label {
+        top: 52%;
+        left: 64%;
+        width: 5%;
+        height: 19px;
+        letter-spacing: 0px;
+        color: #000000;
+        text-align: center;
+        font: normal normal 400 16px/19px Roboto;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .budget-title {
+        top: 62%;
+        left: 12%;
+        height: 3%;
+        letter-spacing: 0px;
+        color: #000000;
+        text-align: center;
+        font: normal normal 400 18px/22px Roboto;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .select-budget {
+        top: 68%;
+        left: 12%;
+        width: 78%;
+        height: 7%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #DEDEDE;
+        border-radius: 10px;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .button {
+        top: 86%;
+        left: 9%;
+        width: 80%;
+        background: transparent linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        position: absolute;
+        border-radius: 8px;
+        color: $color-ffffff;
+        text-align: center;
+        font: normal normal 500 16px/24px Roboto;
+        letter-spacing: 0.6px;
+    }
+
+    .view-users {
+        top: 93%;
+        left: 9%;
+        width: 80%;
+        background: transparent linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        position: absolute;
+        border-radius: 8px;
+        color: $color-ffffff;
+        text-align: center;
+        font: normal normal 500 16px/24px Roboto;
+        letter-spacing: 0.6px;
+    }
+}

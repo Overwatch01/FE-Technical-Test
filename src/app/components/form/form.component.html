@@ -1,0 +1,51 @@
+<div class="form">
+    <ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="line-spin-fade-rotating"
+        [fullScreen]="true">
+    </ngx-spinner>
+    <span class="title">We’ll be in touch to get your trial set up.</span>
+    <span class="fill">Fill Out Form</span>
+    <form [formGroup]="formGroup" (ngSubmit)="processAction()">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="First Name" formControlName="firstName">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Last Name" formControlName="lastName">
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-md-12">
+                    <input type="email" class="form-control" placeholder="Work Email" formControlName="email">
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-md-12">
+                    <input type="number" class="form-control" placeholder="Monthly Budget" formControlName="budget">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="k-form-error"
+                        *ngIf="formGroup.get('firstName').invalid && (formGroup.get('firstName').touched || formGroup.get('firstName').dirty)">
+                        Please enter your first name
+                    </div>
+                    <div class="k-form-error"
+                        *ngIf="formGroup.get('lastName').invalid && (formGroup.get('lastName').touched || formGroup.get('lastName').dirty)">
+                        Please enter your last name
+                    </div>
+                    <div class="k-form-error"
+                        *ngIf="formGroup.get('email').invalid && (formGroup.get('email').touched || formGroup.get('email').dirty)">
+                        Please enter a valid email
+                    </div>
+                    <div class="k-form-error"
+                        *ngIf="formGroup.get('budget').invalid && (formGroup.get('budget').touched || formGroup.get('budget').dirty)">
+                        Please enter a monthly budget
+                    </div>
+                    <button [disabled]="formGroup.invalid">GET FREE TRIAL</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,23 @@
+<div class="card">
+    <span class="title">Let's Start</span>
+    <span class="info">Fill out the form and we'll get in touch to get your trial set up.</span>
+    <form>
+        <div class="ads-title">Do you want to make ads that convert?</div>
+        <input class="yes" type="radio" id="yes" name="ads" value="yes">
+        <label class="yes-label" for="yes">Yes</label>
+
+
+        <input class="no" type="radio" id="no" name="ads" value="no">
+        <label class="no-label" for="no">No</label>
+
+
+        <div class="budget-title">What's your monthly ad budget?</div>
+        <select class="select-budget" name="" id="">
+            <option value="Select">Select</option>
+        </select>
+
+        <button routerLink="/form" class="button">GET STARTED</button>
+        <button class="view-users" (click)="triggerModal('genericModal', 'SHOW')">View
+            Users</button>
+    </form>
+</div>

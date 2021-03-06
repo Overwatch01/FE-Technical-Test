@@ -1,0 +1,545 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/css/variables";
+
+/* Character Styles */
+.roboto-—-14pt-body-3 {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-14;
+    line-height: $line-spacing-17;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+    .roboto-—-16pt-body-2 {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-16;
+    line-height: $line-spacing-19;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+    .roboto-—-18pt-body-text {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-18;
+    line-height: $line-spacing-22;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+    .roboto-—-25pt-mobile {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-25;
+    line-height: $line-spacing-30;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+    .roboto-—-28pt-h4 {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-28;
+    line-height: $line-spacing-34;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+    .roboto-—-34pt-h3 {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-34;
+    line-height: $line-spacing-41;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+    .roboto-—-45pt-h2 {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-45;
+    line-height: $line-spacing-54;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+    .roboto-—-54pt-h1 {
+    font-family: $font-family-roboto;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-54;
+    line-height: $line-spacing-65;
+    letter-spacing: $character-spacing-0;
+    color: $color-000000;
+    }
+ 
+    
+.app-content {
+    display: flex;
+    height: 2595px;
+    width: 100%;
+    flex-direction: column;
+    background: $color-ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    .landing-page {
+        height: 42%;
+        width: 100%;
+        position: relative;
+
+        .bg-ellipse {
+            top: 10%;
+            left: 51%;
+            width: 19%;
+            height: 34%;
+            background: transparent url('./assets/svg/Ellipse\ 8.svg') 0% 0% no-repeat padding-box;
+            opacity: 0.6;
+            background-size: contain;
+            position:absolute;
+        }
+
+        .bg-ellipse-white {
+            top: 42%;
+            left: 48%;
+            width: 4%;
+            height: 7%;
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            background: transparent url('./assets/svg/Ellipse\ 11.svg') 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px transparent;
+            position: absolute;
+            background-size: contain;
+            opacity: 1;
+        }
+
+        .md-ellipse-white {
+            top: 48%;
+            left: 46%;
+            width: 2%;
+            height: 4%;
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            background: transparent url('./assets/svg/Ellipse\ 10.svg') 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px transparent; 
+            position: absolute;
+            background-size: contain;
+            opacity: 1;
+        }
+
+        .sm-ellipse-white {
+            top: 57%;
+            left: 43%;
+            width: 1%;
+            height: 2%;
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            background: transparent url('./assets/svg/Ellipse\ 9.svg') 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px transparent;
+            opacity: 1;
+            position: absolute;
+            background-size: contain;
+        }
+
+        .orange-carpet {
+            top: 15%;
+            left: 86%;
+            width: 7%;
+            height: 13%;
+            background: transparent url('./assets/svg/Repeat\ Grid\ 2.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            position: absolute;
+            background-size: contain;
+        }
+
+        .logo {
+            top: 13%;
+            left: 9%;
+            width: 8%;
+            height: 4%;
+            background: transparent url('./assets/img/filed-logo-01.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            background-size: contain;
+            position:absolute;
+        }
+
+        .demo {
+            top: 25%;
+            left:9%;
+            width: 39%;
+            height: 118px;
+            letter-spacing: $character-spacing-0;
+            text-align: left;
+            font: normal normal 400 39px/50px Roboto;
+            opacity: 1;
+            position: absolute;
+
+            .demo-free {
+                color: #38CCF5;
+            }
+        }
+
+        .demo-text {
+            top: 39%;
+            left:9%;
+            width: 42%;
+            height: 68px;
+            color: $color-000000;
+            text-align: left;
+            font: normal normal 300 28px/34px Roboto;
+            letter-spacing: 0.56px;
+            opacity: 1;
+            position: absolute;
+        }
+
+        .landing-page-pc {
+            top: 59%;
+            left:10%;
+            width: 38%;
+            height: 41%;
+            background: transparent url('./assets/img/Artboard\ 1.png') 0% 0% no-repeat padding-box;
+            background-size: contain;
+            opacity: 1;
+            position: absolute;
+        }
+    }
+
+    .info-page {
+       // background-color: gray;
+        height: 20%;
+        left: 0px;
+        width: 100%;
+        position: relative;
+        opacity: 1;
+
+        .info-image {
+            height: 100%;
+            width: 100%;
+            background: transparent url('./assets/img/Group\ 393.png') 0% 0% padding-box;
+            background-size: contain;
+            position: absolute;
+            opacity: 1;
+        }
+
+        .info-text {
+            top: 30%;
+            left: 22%;
+            width: 58%;
+            height: 41px;
+            letter-spacing: $character-spacing-0;
+            color: $color-38ccf5;
+            text-align: left;
+            font: normal normal normal 22px/41px Roboto;
+            position: absolute;
+            opacity: 1;
+        }
+    }
+
+    .benefit-page {
+        height: 16%;
+        position: relative;
+
+        .benefit-desc {
+            top: 46%;
+            left: 9%;
+            width: 22%;
+            height: 13%;
+            letter-spacing: $character-spacing-0;
+            color: $color-000000;
+            text-align: left;
+            font: normal normal 400 22px/43px Roboto;
+            position: absolute;
+
+            .benefit {
+                color: $color-38ccf5;
+            }
+        }
+
+        .icon-one {
+            top: 27%;
+            left: 58%;
+            width: 2%;
+            height: 7%;
+            background: transparent url('./assets/svg/Icon\ awesome-check.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            position:absolute;
+            background-size: contain;
+        }
+
+        .desc-one {
+            top: 27%;
+            left: 62%;
+            width: 30;
+            height: 24px;
+            letter-spacing: $character-spacing-0;
+            color: $color-000000;
+            text-align: center;
+            font: normal normal normal 13px/28px Roboto;
+            opacity: 1;
+            position:absolute;
+        }
+
+        .icon-two {
+            top: 46%;
+            left: 58%;
+            width: 2%;
+            height: 7%;
+            background: transparent url('./assets/svg/Icon\ awesome-check.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            position:absolute;
+            background-size: contain;
+        }
+
+        .desc-two {
+            top: 46%;
+            left: 62%;
+            width: 30%;
+            height: 24px;
+            letter-spacing: $character-spacing-0;
+            color: $color-000000;
+            text-align: center;
+            font: normal normal normal 13px/28px Roboto;
+            opacity: 1;
+            position:absolute;
+        }
+
+        .icon-three {
+            top: 71%;
+            left: 58%;
+            width: 2%;
+            height: 7%;
+            background: transparent url('./assets/svg/Icon\ awesome-check.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            position:absolute;
+            background-size: contain;
+        }
+
+        .desc-three {
+            top: 72%;
+            left: 62%;
+            width: 30;
+            height: 24px;
+            letter-spacing: $character-spacing-0;
+            color: $color-000000;
+            text-align: center;
+            font: normal normal normal 13px/28px Roboto;
+            opacity: 1;
+            position:absolute;
+        }
+
+    }
+
+    .review-page {
+        height: 18%;
+        left: 0px;
+        width: 100%;
+        background: transparent linear-gradient(180deg, $color-38ccf5 0%, #3ECCF5 0%, #42CCF5 16%, #36C1EE 38%, #119FD6 62%, #2A97BF 81%, #108ABF 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+        .row {
+            height: 100%;
+        }
+
+        .review-icon {
+            top: 23%;
+            left: 9%;
+            width: 3%;
+            height: 8%;
+            background: transparent url('./assets/svg/Icon\ material-format-quote.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            position:absolute;
+            background-size: contain;
+        }
+
+        .review-title {
+            top: 21%;
+            left: 63px;
+            width: 215px;
+            height: 89px;
+            letter-spacing: $character-spacing-0;
+            color: $color-ffffff;
+            text-align: left;
+            font: normal normal 400 24px/29px Roboto;
+            opacity: 1;
+            position:absolute;
+        }
+
+        .review-desc {
+            left: 9%;
+            top: 42%;
+            width: 65%;
+            height: 18%;
+            letter-spacing: $character-spacing-0;
+            color: $color-ffffff;
+            text-align: left;
+            font: normal normal normal 15px/26px Roboto;
+            opacity: 1;
+            position:absolute;
+        }
+
+        .review-author-image {
+            top: 65%;
+            left: 9%;
+            border-radius: 50%;
+            width: 24%;
+            height: 24%;
+            background: transparent url('./assets/img/avatar.png') 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+            position: absolute;
+            background-size: contain;
+        }
+
+        .review-author-detail {
+            top: 75%;
+            left: 35%;
+            width: 48%;
+            height: 22px;
+            letter-spacing: $character-spacing-0;
+            color: $color-ffffff;
+            text-align: left;
+            font: normal normal bold 13px/28px Roboto;
+            opacity: 1;
+            position: absolute;
+        }
+
+        .review-author-position {
+            top: 80%;
+            left: 35%;
+            width: 48%;
+            height: 22px;
+            letter-spacing: $character-spacing-0;
+            color: $color-ffffff;
+            text-align: left;
+            font: italic normal normal 12px/28px Roboto;
+            opacity: 1;
+            position: absolute;
+        }
+    }   
+
+    .footer-page {
+        width: 100%;
+        height: 4%;
+        background: #595957 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: relative;
+
+        .footer-text {
+            position: absolute;
+            top: 37%;
+            color: $color-ffffff;
+            text-align: center;
+            font: normal normal normal 18px/22px Roboto;
+            opacity: 1;
+            width: 100%;
+
+            .copyright {
+                position: absolute;
+                left: 9%;
+            }
+
+            .home {
+                position: absolute;
+                left: 45%;
+            }
+
+            .feature {
+                position: absolute;
+                left: 52%;
+            }
+
+            .terms {
+                position: absolute;
+                left: 61%;
+            }
+
+            .privacy {
+                position: absolute;
+                left: 68%;
+            }
+
+            .contact {
+                position: absolute;
+                left: 76%;
+            }
+
+            .facebook-logo{
+                position: absolute;
+                left: 87%;
+                width: 0.6%;
+                height: 24px;
+                background: transparent url('./assets/img/facebook.png') 0% 0% no-repeat padding-box;
+                opacity: 1;
+                background-size: contain;
+            }
+
+            .instagram-logo{
+                position: absolute;
+                left: 89%;
+                width: 1.2%;
+                height: 24px;
+                background: transparent url('./assets/svg/instagram.svg') 0% 0% no-repeat padding-box;
+                opacity: 1;
+                background-size: contain;
+            }
+
+            .twitter-logo{
+                position: absolute;
+                left: 91%;
+                width: 1.4%;
+                height: 51px;
+                background: transparent url('./assets/svg/twitter.svg') 0% 0% no-repeat padding-box;
+                opacity: 1;
+                background-size: contain;
+            }
+
+        }
+    }
+
+    &.modal-open {
+        overflow-y: hidden !important;
+        padding-right: 0 !important;
+      }
+      .modal-backdrop {
+        width: 100%;
+        height: 100%;
+      }
+    
+      button.btn {
+        font-weight: 600;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      .modal {
+        .modal-content {
+    
+          .modal-header {
+            background-color: $primary_color;
+            color: $color-ffffff;
+            text-align: center;
+            font: normal normal 500 16px/24px Roboto;
+            letter-spacing: 0.6px;
+          }
+    
+          //settings form stylings
+          .settings-form {
+            padding: 15px 30px;
+    
+            .form-group {
+              margin-bottom: 25px;
+            }
+          }
+          .modal-footer {
+            justify-content: space-between;
+            button[data-dismiss="modal"], .btn-close {
+              background: rgba(0,0,0,.05);
+              color: #57584e;
+              border: solid 1px rgba(0,0,0,.075);
+              &:focus {
+                outline: none;
+                border: solid 1px rgba(0,0,0,.075);
+              }
+            }
+          }
+        }
+      }
+}
